@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="login_spinner_items">
+        <item >--请选择--</item>
+        <item >码头件货理货员</item>
+        <item >码头散货理货员</item>
+        <item >码头机动理货员</item>
+        <item >铁路件货理货员</item>
+        <item >铁路散货理货员</item>
+        <item >铁路集装箱理货员</item>
+        <item >铁路商品车理货员</item>
+    </string-array>
+</resources>

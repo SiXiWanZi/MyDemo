@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- 当按下时 -->
+  <item android:state_pressed="true">
+  <shape>
+      <!--设置渐变效果  -->
+      <gradient android:startColor="#FFFFFFFF" android:endColor="#FFFFFFFF"
+      android:angle="0"/>
+      <stroke android:width="4dip" android:color="#00000000"/>
+      <corners android:radius="6dp"/>
+      <padding android:left="2dp" android:top="2dp" android:right="2dp"
+               android:bottom="2dp"/>
+  
+  </shape>
+  
+  </item>
+  <!-- 当获取焦点的时候 -->
+  <item android:state_focused="true">
+  <shape>
+      <gradient android:startColor="#FFFFFFFF" android:endColor="#00000000"
+      android:angle="0"/>
+      <stroke android:width="4dip" android:color="#00000000"/>
+      <corners android:radius="6dp"/>
+      <padding android:left="2dp" android:top="2dp" android:right="2dp"
+               android:bottom="2dp"/>
+  
+  </shape>
+  
+  </item>
+  <item>
+  <shape>
+      <gradient android:startColor="#0000CD" android:endColor="#0000CD"
+      android:angle="0"/>
+      <stroke android:width="4dip" android:color="#00000000"/>
+      <corners android:radius="6dp"/>
+      <padding android:left="2dp" android:top="2dp" android:right="2dp"
+               android:bottom="2dp"/>
+  
+  </shape>
+  
+  </item>
+</selector>

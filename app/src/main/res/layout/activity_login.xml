@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/splash"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/pd10"
+        android:layout_marginRight="@dimen/pd10"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/angle_border_bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/parent"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical">
+            <!--用户名-->
+            <EditText
+                android:id="@+id/edt_login_yhzh"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="@android:color/transparent"
+                android:hint="用户名"
+                android:paddingLeft="@dimen/pd8"
+                android:singleLine="true"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/set_BobaoBu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/border_top"
+            android:gravity="center_vertical">
+
+            <!--密码-->
+            <EditText
+                android:id="@+id/edt_login_psw"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/transparent"
+                android:hint="密码"
+                android:inputType="textPassword"
+                android:paddingLeft="@dimen/pd8"
+                android:singleLine="true"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!--登录-->
+    <Button
+        android:id="@+id/btn_login_login"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="@dimen/pd10"
+        android:layout_marginRight="@dimen/pd10"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button5"
+        android:gravity="center"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp"
+        android:text="登录"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+</LinearLayout>

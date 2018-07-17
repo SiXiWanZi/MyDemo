@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/angle_border_bg"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="25dp"
+        android:text="@string/gps_title"
+        android:layout_marginStart="20dp"
+        android:gravity="center"
+        android:textSize="20sp" />
+    <TextView
+        android:gravity="left"
+        android:text="@string/gps_tip"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorText555"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="16sp" />
+    <View
+        android:layout_marginTop="40dp"
+        android:background="#ffd1d1d1"
+        android:layout_width="fill_parent"
+        android:layout_height="2.0px" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#faf6f6"
+        android:layout_height="50dp"
+        >
+        <Button
+            android:id="@+id/btn_opengps_sure"
+            android:layout_width="0.0dip"
+            android:text="@string/gps_yes"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBtn"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:background="#0000"
+            android:layout_weight="1.0" />
+        <View
+            android:background="#ffd1d1d1"
+            android:layout_width="2.px"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/btn_opengps_cancel"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBtn"
+            android:layout_marginTop="10.0dip"
+            android:text="@string/gps_cancel"
+            android:layout_marginBottom="10.0dip"
+            android:background="#0000"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

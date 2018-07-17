@@ -1,0 +1,75 @@
+<resources>
+    <!--说明性文字-->
+    <dimen name="textCaption">12sp</dimen>
+    <!--主体文字-->
+    <dimen name="textBody">14sp</dimen>
+    <!--按钮文字-->
+    <dimen name="textBtn">14sp</dimen>
+    <!--次要标题文字-->
+    <dimen name="textSubHead">16sp</dimen>
+    <!--标题文字-->
+    <dimen name="textTitle">20sp</dimen>
+    <!--头条文字-->
+    <dimen name="textHeadLine">24sp</dimen>
+    <dimen name="textDisplay1">34sp</dimen>
+    <dimen name="textDisplay2">45sp</dimen>
+    <dimen name="textDisplay3">56sp</dimen>
+    <dimen name="textDisplay4">112sp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <!--默认border宽度-->
+    <dimen name="border_width_default">0.3dp</dimen>
+
+    <dimen name="space_xlarge">24dp</dimen>
+    <dimen name="space_large">16dp</dimen>
+    <dimen name="space_normal">14dp</dimen>
+    <dimen name="space_small">12dp</dimen>
+    <dimen name="space_tiny">4dp</dimen>
+
+
+    <!--*****************fjj*****************-->
+    <!--login-->
+    <dimen name="space_padding">16sp</dimen>
+    <dimen name="textsize_Box">16sp</dimen>
+    <dimen name="height_login_btn">45dp</dimen>
+    <dimen name="height_Box">45dp</dimen>
+    <dimen name="height_detail_row">25dp</dimen>
+    <dimen name="pedding_detail_left">200dp</dimen>
+    <dimen name="textBody_detail">18sp</dimen>
+
+    <!--*****************************-->
+
+
+    <!--*****************lupian*****************-->
+
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="picSize">25dp</dimen>
+    <dimen name="img_padding">14sp</dimen>
+    <!--*****************************-->
+
+
+    <!--*****************yanglijin*****************-->
+    <!-- 内边距 -->
+    <dimen name="default_padding">14dp</dimen>
+    <dimen name="pd16">16dp</dimen>
+    <dimen name="pd14">14dp</dimen>
+    <dimen name="pd12">12dp</dimen>
+    <dimen name="pd10">10dp</dimen>
+    <dimen name="pd8">8dp</dimen>
+    <dimen name="pd6">6dp</dimen>
+
+    <!-- 默认字体大小 -->
+    <dimen name="fs22">22sp</dimen>
+    <dimen name="fs20">20sp</dimen>
+    <dimen name="fs18">18sp</dimen>
+    <dimen name="fs16">16sp</dimen>
+    <dimen name="fs14">14sp</dimen>
+    <dimen name="fs12">12sp</dimen>
+    <!--*****************************-->
+
+
+</resources>

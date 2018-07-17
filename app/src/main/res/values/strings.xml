@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">示例代码</string>
+    <string name="app_name_running">车辆预约系统正在运行中</string>
+    <string name="dialog_loading">加载中</string>
+    <string name="exception_tip">服务器异常，请联系管理员</string>
+    <string name="to_setting">去设置</string>
+    <string name="tip">提示</string>
+    <string name="please_open_gps">请打开GPS</string>
+    <string name="network_error">请联系管理员</string>
+    <string name="operate_failed">操作失败</string>
+    <string name="operate_success">操作成功</string>
+
+
+    <!--*************杨  霞*************-->
+    <!--update-->
+    <string name="update_title">软件更新</string>
+    <string name="update_content">检测到新版本，必须更新后才能使用，是否更新？</string>
+    <string name="update_negativeText">稍后更新</string>
+    <string name="update_positiveText">现在更新</string>
+    <string name="fileNotFound">更新文件不存在，请联系管理员！</string>
+    <!--********************************-->
+
+
+    <!--fjj-->
+    <!--login-->
+    <string name="truck_number">请输入车牌号</string>
+    <string name="password">请输入身份证后六位</string>
+    <string name="verify_code">请输入右侧验证码</string>
+    <string name="login">登录</string>
+    <string name="truck_number_not_null">车牌号不能为空</string>
+    <string name="password_not_null">密码不能为空</string>
+    <string name="verify_code_not_null">验证码不能为空</string>
+    <string name="verify_code_wrong">验证码错误</string>
+    <string name="truck_number_or_password_wrong">车牌号或密码错误</string>
+    <string name="title_detail">预约详情</string>
+    <string name="detail_comment">注:请点击右上角预约详细时间完成预约！</string>
+    <string name="menu_detail_time">预约详细时间</string>
+    <string name="remember_password">记住密码</string>
+
+    <!--detail_info-->
+    <string name="detail_info_hz">货主</string>
+    <string name="detail_info_hl">货类</string>
+    <string name="detail_info_gg">规格</string>
+    <string name="detail_info_cph">车牌号</string>
+    <string name="detail_info_sjxm">司机姓名</string>
+    <string name="detail_info_lgjtgj">来港交通工具</string>
+    <string name="detail_info_jhzyts">计划作业趟数</string>
+    <string name="detail_info_mtzydw">每趟作业吨位</string>
+    <string name="detail_info_yyclzdw">预约车辆总吨位</string>
+    <string name="detail_info_jhscjgsj">计划首次进港时间</string>
+    <string name="detail_info_jizhyclgsj">计划最后一次离港时间</string>
+    <string name="detail_info_state_success">当前状态：已预约成功,不可更改或取消</string>
+    <string name="detail_info_state_finish">当前状态：已预约,可更改或取消</string>
+    <string name="detail_info_state_no">当前状态：未预约</string>
+    <string name="detail_info_state_outtime">当前状态：预约已过期,请重新预约</string>
+
+    <!--detail_time-->
+    <string name="btn_detail_time_choose">预约</string>
+    <string name="detail_time_date">选择日期</string>
+    <string name="detail_time_certain">确定</string>
+    <string name="detail_time_sjd">时间段(时)</string>
+    <string name="detail_time_yycls">预约车辆数</string>
+    <string name="detail_time_cz">操作</string>
+    <string name="detail_time_dqzt">当前状态</string>
+    <string name="btn_detail_time_cancel">取消预约</string>
+
+
+    <!--*****************************-->
+
+
+    <!--lupian-->
+    <!--退出登录-->
+    <string name="exit_tips">是否退出登录?</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="wifi_dialog">提示</string>
+    <string name="wifi_tips">WiFi未开启，请打开WiFi。</string>
+    <string name="wifi_ok">确认</string>
+    <string name="wifi_cancel">取消</string>
+    <!--*****************************-->
+
+
+    <!--yanglijin-->
+
+    <!--打开GPS-->
+    <string name="gps_title">提示</string>
+    <string name="gps_tip">请打开GPS</string>
+    <string name="gps_yes">确定</string>
+    <string name="gps_cancel">取消</string>
+
+
+    <!--登录-->
+    <string name="work_duty">工作职责</string>
+
+    <!--内转车排班-->
+    <string name="innervehschedule_submit">提交</string>
+    <!--*****************************-->
+</resources>

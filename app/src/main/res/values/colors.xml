@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryLight">#448AFF</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFF</color>
+    <color name="red">#F00</color>
+
+    <!--<color name="colorBackground">#F6F6F6</color>-->
+    <color name="transparent">#00000000</color>
+    <!--说明性文字-->
+    <color name="colorCaption">#8A000000</color>
+    <!--主体文字-->
+    <color name="colorBody">#DE000000</color>
+    <!--按钮文字-->
+    <color name="colorBtn">#DE000000</color>
+    <!--次要标题文字-->
+    <color name="colorSubHead">#DE000000</color>
+    <!--标题文字-->
+    <color name="colorTitle">#DE000000</color>
+    <!--头条文字-->
+    <color name="colorHeadLine">#DE000000</color>
+    <color name="colorDisplay1">#8A000000</color>
+    <color name="colorDisplay2">#8A000000</color>
+    <color name="colorDisplay3">#8A000000</color>
+    <color name="colorDisplay4">#8A000000</color>
+
+    <!--文本颜色-->
+    <color name="colorTextDefault">#333</color>
+    <color name="colorText444">#444</color>
+    <color name="colorText555">#555</color>
+    <color name="colorText666">#666</color>
+    <color name="colorText777">#777</color>
+    <color name="colorText888">#888</color>
+    <color name="colorText999">#999</color>
+    <color name="colorTextaaa">#aaa</color>
+    <color name="colorTextccc">#ccc</color>
+
+    <!--默认border颜色-->
+    <color name="border_default">#dcdcdc</color>
+
+    <!--fjj-->
+
+    <!--*****************************-->
+
+
+    <!--lupian-->
+
+    <!--*****************************-->
+
+
+    <!--yanglijin-->
+    <color name="color3A3A3A">#3A3A3A</color>
+    <color name="color3F3F3F">#3F3F3F</color>
+    <color name="color8A9599">#8A9599</color>
+    <color name="color868686">#868686</color>
+    <color name="weight_list_top_lines">#aa000000</color>
+
+    <!--文本颜色-->
+    <color name="text_default">#333</color>
+    <color name="text_444">#444</color>
+    <color name="text_555">#555</color>
+    <color name="text_666">#666</color>
+    <color name="text_777">#777</color>
+    <color name="text_888">#888</color>
+    <color name="text_999">#999</color>
+    <color name="text_aaa">#aaa</color>
+    <color name="text_ccc">#ccc</color>
+    <!--*****************************-->
+
+</resources>

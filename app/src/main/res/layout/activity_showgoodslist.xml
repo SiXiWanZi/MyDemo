@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/srl_showgoodslist_refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_showgoodslist_goodsList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <!--进度条-->
+    <ProgressBar
+        android:id="@+id/pb_showgoodslist_loading"
+        android:layout_width="50dp"
+        android:visibility="invisible"
+        android:layout_centerInParent="true"
+        android:layout_height="50dp" />
+
+</RelativeLayout>
