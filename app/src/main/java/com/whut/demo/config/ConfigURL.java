@@ -40,9 +40,11 @@ public class ConfigURL {
     // 内转车排班记录
     public static final String INNER_VEHICLE_SHCEDULE_RECORD = "InnerVehSchedule.ashx";
     // apk版本检测（8099端口号）
-    public static final String VERSION_URL = BASE_URL_UPDATE+"/version.xml";
+    public static final String VERSION_URL = BASE_URL_UPDATE + "/version.xml";
     // 测试页面
     public static final String MY_TEST_URL = "Test.ashx";
+    // 查询页面
+    public static final String GET_QUERY_DATA = "Query.ashx";
     /*************************/
 
 

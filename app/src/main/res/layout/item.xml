@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/ll_LoadMoreAndRefreshRecycler_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        !--姓名-->
+        <TextView
+            android:id="@+id/tv_LoadMoreAndRefreshRecycler_name"
+            android:hint="姓名"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <!--年龄-->
+        <TextView
+            android:id="@+id/tv_LoadMoreAndRefreshRecycler_age"
+            android:hint="年龄"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+<!--起到Item之间分割线的作用-->
+    <View
+        android:layout_below="@+id/ll_LoadMoreAndRefreshRecycler_content"
+        android:layout_width="match_parent"
+        android:background="@android:color/darker_gray"
+        android:layout_height="1dp" />
+</RelativeLayout>
+
+
+

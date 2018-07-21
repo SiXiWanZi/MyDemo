@@ -44,6 +44,10 @@ public class ShowGoodsListPresenterImpl extends ShowGoodsListConstract.ShowGoods
             // 如果正在下拉刷新，则直接返回
             return;
         }
+        if (view.isLoadMore()) {
+            // 如果正在下拉加载数据，则“本次不操作”
+            return;
+        }
         // 设置isLoadMore变量
         view.setIsLoadMore(true);
 //        view.showLoading();
